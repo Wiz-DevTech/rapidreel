@@ -59,8 +59,8 @@ const Careers = () => {
           
           <section className="mb-12">
             <p className="text-lg text-gray-600 text-center leading-relaxed">
-              We're looking for passionate, innovative people who believe in the power of faceless content creation. 
-              If you're ready to join a team that's revolutionizing how creators build their empire, we want to hear from you!
+              We&apos;re looking for passionate, innovative people who believe in the power of faceless content creation. 
+              If you&apos;re ready to join a team that&apos;s revolutionizing how creators build their empire, we want to hear from you!
             </p>
           </section>
 

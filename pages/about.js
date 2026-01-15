@@ -23,7 +23,7 @@ const About = () => {
             <h2 className="text-2xl font-bold mb-4 text-gray-700">Our Mission</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
               RapidReel empowers creators to produce high-quality, faceless content at lightning speed. 
-              We've simplified the entire content creation process into 6 strategic modules, making it 
+              We&apos;ve simplified the entire content creation process into 6 strategic modules, making it 
               accessible for everyone to build a successful content empire without ever showing your face.
             </p>
           </section>
