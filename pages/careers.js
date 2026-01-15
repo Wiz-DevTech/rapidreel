@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Head from "next/head";
 import { motion } from "framer-motion";
 
@@ -84,9 +85,9 @@ const Careers = () => {
                     </span>
                   </div>
                   <p className="text-gray-600 mb-4">{position.description}</p>
-                  <a href="/contact" className="text-red-500 font-semibold hover:text-red-700">
+                  <Link href="/contact" className="text-red-500 font-semibold hover:text-red-700">
                     Apply Now →
-                  </a>
+                  </Link>
                 </motion.div>
               ))}
             </div>
@@ -104,15 +105,15 @@ const Careers = () => {
           </section>
 
           <div className="text-center">
-            <a href="/contact" className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg transition">
+            <Link href="/contact" className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg transition">
               Send Us Your Resume
-            </a>
+            </Link>
           </div>
 
           <div className="mt-12 text-center">
-            <a href="/" className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-8 rounded-lg transition">
+            <Link href="/" className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-8 rounded-lg transition">
               Back to Home
-            </a>
+            </Link>
           </div>
         </div>
       </motion.div>

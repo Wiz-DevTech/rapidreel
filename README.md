@@ -2,31 +2,29 @@
 
   <img src="./public/logo.png" alt="logo" width="230" height="auto" />
   
-  <h1>TikTok Clone with REACT.JS!</h1>
+  <h1>RapidReel - Rapid Faceless Content Creation!</h1>
   
   <p>
-Full Stack TikTok Clone with REACT.JS! (Next.js, Tailwind CSS, Video Uploading, Google Authentication, Tik-Tok Profile)
+Full Stack Content Creation Platform with REACT.JS! (Next.js, Tailwind CSS, Video Uploading, Google Authentication, Creator Network, 6-Module System)
   </p>
   
   
 <!-- Badges -->
 
-<a href="https://tiktok-sclone.vercel.app" target="_blank">![](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)</a>
 ![](https://img.shields.io/badge/Maintained-Yes-indigo)
-![](https://img.shields.io/github/forks/SashenJayathilaka/TIK-TOK-Clone.svg)
-![](https://img.shields.io/github/stars/SashenJayathilaka/TIK-TOK-Clone.svg)
-![](https://img.shields.io/github/issues/SashenJayathilaka/TIK-TOK-Clone)
-![](https://img.shields.io/github/last-commit/SashenJayathilaka/TIK-TOK-Clone)
+![](https://img.shields.io/badge/Status-Active-success)
+![](https://img.shields.io/badge/License-MIT-blue)
+![](https://img.shields.io/badge/Platform-Vercel-black)
 
    
 <h4>
-    <a href="https://tiktok-sclone.vercel.app">View Demo</a>
+    <a href="https://rapidreel.wizdevtech.com">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/SashenJayathilaka/TIK-TOK-Clone/blob/master/README.md">Documentation</a>
+    <a href="https://github.com/Wiz-DevTech/rapidreel/blob/main/README.md">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/SashenJayathilaka/TIK-TOK-Clone/issues">Report Bug</a>
+    <a href="https://github.com/Wiz-DevTech/rapidreel/issues">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/SashenJayathilaka/TIK-TOK-Clone/issues">Request Feature</a>
+    <a href="https://github.com/Wiz-DevTech/rapidreel/issues">Request Feature</a>
   </h4>
 </div>
 
@@ -54,10 +52,10 @@ Full Stack TikTok Clone with REACT.JS! (Next.js, Tailwind CSS, Video Uploading, 
 ### :camera: Screenshots
 
 <div align="center">
-<a href="https://tiktok-sclone.vercel.app" target="_blank"><img width='800'  src='https://user-images.githubusercontent.com/99184393/199413058-3c4720d3-a24d-45f1-9c2c-f27abb73fac0.gif' alt='image'/></a>
+<a href="https://rapidreel.wizdevtech.com" target="_blank"><img width='800'  src='https://user-images.githubusercontent.com/99184393/199413058-3c4720d3-a24d-45f1-9c2c-f27abb73fac0.gif' alt='image'/></a>
 </div>
 
-## <a href="https://tiktok-sclone.vercel.app" target="_blank">LIVE DEMO 💥</a>
+## <a href="https://rapidreel.wizdevtech.com" target="_blank">LIVE DEMO 💥</a>
 
 ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
 ![forthebadge](https://forthebadge.com/images/badges/for-you.svg)
@@ -191,7 +189,7 @@ Add the `@tailwind` directives for each of Tailwind’s layers to your `./styles
 
 Install dependencies
 
-<a href="https://github.com/SashenJayathilaka/TIK-TOK-Clone/blob/master/package.json" target="_blank">🔶 Other Dependency Info</a>
+<a href="https://github.com/Wiz-DevTech/rapidreel/blob/main/package.json" target="_blank">🔶 Other Dependency Info</a>
 
 <!-- Run Locally -->
 
@@ -200,21 +198,33 @@ Install dependencies
 Clone the project
 
 ```bash
-  git clone https://github.com/SashenJayathilaka/TIK-TOK-Clone.git
+  git clone https://github.com/Wiz-DevTech/rapidreel.git
 ```
 
 change directory
 
 ```bash
-  cd TIK-TOK-Clone
+  cd rapidreel
 ```
 
 Install dependencies
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ```bash
   npm install
 ```
+
+Create `.env.local` file with Firebase credentials
+
+```bash
+NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+```
+
 ### Getting Started
 
 Start the server
@@ -224,15 +234,9 @@ First, run the development server:
   npm run dev
 ```
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+You can start editing the pages in the `pages/` directory. The app auto-updates as you edit the files.
 
 ### Learn More
 
@@ -257,14 +261,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## :handshake: Contact
 
-Your Name - [@twitter_handle](https://twitter.com/SashenHasinduJ) - sashenjayathilaka95@gmail.com
+WizDevTech - [@WizDevTech](https://twitter.com/WizDevTech) - contact@wizdevtech.com
 
-Project Link: [https://github.com/SashenJayathilaka/TIK-TOK-Clone.git](https://github.com/SashenJayathilaka/TIK-TOK-Clone.git)
+Project Link: [https://github.com/Wiz-DevTech/rapidreel](https://github.com/Wiz-DevTech/rapidreel)
 
 <hr />
 
 <div align="center">
-<a href="https://tiktok-sclone.vercel.app" target="_blank"><img width='900'  src='https://user-images.githubusercontent.com/99184393/200150496-009df347-759d-4dd6-8089-cc28abf46c0a.png' alt='image'/></a>
+<a href="https://rapidreel.wizdevtech.com" target="_blank"><img width='900'  src='https://user-images.githubusercontent.com/99184393/200150496-009df347-759d-4dd6-8089-cc28abf46c0a.png' alt='image'/></a>
 </div>
 
 <br />

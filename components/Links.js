@@ -1,16 +1,17 @@
 import React from "react";
 import moment from "moment";
+import Link from "next/link";
 
 const Links = () => {
   return (
     <div className="links">
       <div>
         <div className="link">
-          <a href="/about">About</a>
-          <a href="/hot-topics">Hot Topics</a>
-          <a href="/contact">Contact</a>
-          <a href="/careers">Careers</a>
-          <a href="/">RapidReel</a>
+          <Link href="/about">About</Link>
+          <Link href="/hot-topics">Hot Topics</Link>
+          <Link href="/contact">Contact</Link>
+          <Link href="/careers">Careers</Link>
+          <Link href="/">RapidReel</Link>
         </div>
         <div className="copyright">
           <h6>&copy; {moment().format("YYYY")} RapidReel - Rapid Faceless Content Creation</h6>

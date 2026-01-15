@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Head from "next/head";
 import { motion } from "framer-motion";
 
@@ -93,9 +94,9 @@ const HotTopics = () => {
           </div>
 
           <div className="mt-12 text-center">
-            <a href="/" className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg transition">
+            <Link href="/" className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg transition">
               Back to Home
-            </a>
+            </Link>
           </div>
         </div>
       </motion.div>

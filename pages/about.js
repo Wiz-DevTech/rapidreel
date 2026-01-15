@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Head from "next/head";
 import { motion } from "framer-motion";
 
@@ -42,16 +43,16 @@ const About = () => {
           <section>
             <h2 className="text-2xl font-bold mb-4 text-gray-700">Why Choose RapidReel?</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              With RapidReel, you don't need expensive equipment, a beautiful face, or years of experience. 
+              With RapidReel, you don&apos;t need expensive equipment, a beautiful face, or years of experience. 
               Our proven system breaks content creation into manageable steps, allowing you to scale your 
               channels and build a passive income stream in weeks, not months.
             </p>
           </section>
 
           <div className="mt-12 text-center">
-            <a href="/" className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg transition">
+            <Link href="/" className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg transition">
               Back to Home
-            </a>
+            </Link>
           </div>
         </div>
       </motion.div>

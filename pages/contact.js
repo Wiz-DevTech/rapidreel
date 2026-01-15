@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import toast from "react-hot-toast";
@@ -43,7 +44,7 @@ const Contact = () => {
       >
         <div className="max-w-2xl w-full">
           <h1 className="text-4xl font-bold mb-2 text-center text-gray-800">Contact Us</h1>
-          <p className="text-center text-gray-600 mb-12">Have questions? We'd love to hear from you!</p>
+          <p className="text-center text-gray-600 mb-12">Have questions? We&apos;d love to hear from you!</p>
 
           <form onSubmit={handleSubmit} className="bg-gray-50 p-8 rounded-lg shadow-md">
             <div className="mb-6">
@@ -114,9 +115,9 @@ const Contact = () => {
           </div>
 
           <div className="mt-12 text-center">
-            <a href="/" className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-8 rounded-lg transition">
+            <Link href="/" className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-8 rounded-lg transition">
               Back to Home
-            </a>
+            </Link>
           </div>
         </div>
       </motion.div>
